@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Colorvert</title>
+</head>
+<body>
+  <section id="face">
+    <legend>Please Enter Color Code in rgba</legend>
+    <form id="form1">
+      <input type="color" name="color">
+      <button type="submit">Convert</button></form>
+    <legend>Code in HEX: <span class="codeinhex"></span>&nbsp;&nbsp;<button class="copy" onclick="copyFunction('.codeinhex')">Copy</button></legend>
+    <br>
+    <legend>Please Enter Color Code in hex</legend>
+    <form id="form2"><input type="text" maxlength="6" placeholder="#" class="rgbto" name="rgbto">
+    <button type="submit">Convert</button></form>
+    <legend>Code in rgb: <span class="codeinrgb"></span>&nbsp;&nbsp; <button class="copy" onclick="copyFunction('.codeinrgb')">Copy</button></legend>
+  </section>
+</body>
+<script src="script.js"></script>
+</html>
